@@ -1,0 +1,35 @@
+Command
+=======
+
+git init
+- initialise the project folder
+
+git config --global user.name "Jackson"
+- set commit username
+
+git config --global user.email sgpy4star@gmail.com
+- set commit email address
+
+git status
+- to check any file pending to commit, or add
+
+git remote add origin https://github.com/JacksonInParis/zy.git
+- set my remote GitHub URL
+
+git pull origin main
+- pull github content to my local folder
+
+git add .
+- add file content changes, or add new file
+
+git commit -m "commit description less than 50 char"
+- commit file
+
+git push --set-upstream origin master
+- push local commit file changes to github
+
+git reset <file>
+- to remove file from staging area
+
+git reset
+- to remove all files from staging area
